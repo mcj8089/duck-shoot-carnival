@@ -1,0 +1,19 @@
+[Game Title]
+Duck Shoot Carnival
+
+[Game Introduction]
+Duck Shoot Carnival brings the classic carnival shooting gallery to your browser! Cheery ducks parade across the fairground booth — grab your trusty shotgun, take aim and knock those wacky ducks right off the rails. Rendered in a charming Western cartoon-farm art style: plump 3D cartoon ducks, bright macaron colors, and a living carnival scene with spinning windmills, a ferris wheel, waving bunting, drifting clouds and passing birds — all animated in real time. 30 levels each with a unique gameplay twist, 3 epic bosses, and an unlockable Endless mode. Chain hits for score multipliers, bag golden ducks for triple points, and finish flawless for 3 stars. 100% free, no download, plays great with mouse & keyboard or touch.
+
+[How to Play]
+1. Aim & Shoot: move the mouse (desktop) or press & drag (mobile) to steer the crosshair; click or press Space (desktop), quick tap (mobile) to fire.
+2. Limited Ammo: only 3 shells per wave — watch an ad for more, or wait for auto-reload between waves.
+3. Lives: every escaped duck costs one heart (4 in total). Lose them all and it's game over — revive by watching an ad.
+4. Scoring: 100 base points per hit plus a time bonus for quick shots; consecutive hits build a combo multiplier up to x5; golden ducks are worth 3x.
+5. Level Mods: every level plays differently — twin ducks, gusty wind, night spotlight, balloon ducks, thick fog, mirror controls, armored ducks, thunderstorm, golden rush and more; meet a unique boss every 10 levels (Baron Von Plume / Major Duckington / DJ Quacker) with armored plating and weak-spot gimmicks.
+6. Stars: finish a level with zero escapes for 3 stars (2 stars for <=2 escapes). Collect stars to unlock Endless mode with randomized mod combos.
+
+[SEO Keywords]
+duck shooting game, carnival shooter, duck hunt, casual shooting game, free web game, html5 game, shooting gallery, arcade shooter, aim and shoot, carnival duck shoot, kids game, boss fight, endless mode, pipygames
+
+[Category]
+Casual / Arcade Shooter / Shooting Games / Family & Kids

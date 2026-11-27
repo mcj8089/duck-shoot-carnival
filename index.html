@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
+<title>Duck Shoot Carnival - Free Online Duck Shooting Game</title>
+
+<!-- ==================== Open Graph / Twitter Card（社媒富媒体预览） ==================== -->
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="pipygames.com" />
+<meta property="og:title" content="Duck Shoot Carnival - The Greatest Duck Carnival!" />
+<meta property="og:description" content="Aim, shoot and burst ducks at the carnival! 30 levels, 3 epic boss fights, golden ducks, night hunts and more. Free to play!" />
+<meta property="og:image" content="assets/images/og-cover.jpg" />
+<meta property="og:url" content="https://pipygames.com" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Duck Shoot Carnival - Free Online Duck Shooting Game" />
+<meta name="twitter:description" content="Aim, shoot and burst ducks at the carnival! 30 levels + endless mode. Free to play!" />
+<meta name="twitter:image" content="assets/images/og-cover.jpg" />
+<meta name="description" content="Duck Shoot Carnival: a free online carnival duck shooting game with 30 levels, boss fights, golden ducks and endless mode." />
+<meta name="keywords" content="duck shoot, duck hunting game, carnival game, shooting gallery, free online game" />
+
+<!-- importmap：ES Module 规范 -->
+<script type="importmap">
+{
+  "imports": {}
+}
+</script>
+
+<link rel="stylesheet" href="styles.css" />
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='46' fill='%23ffd23f'/><circle cx='38' cy='40' r='7' fill='%233c2410'/><path d='M60 44l26 4-26 8z' fill='%23ff9838'/></svg>" />
+</head>
+<body>
+<div id="app">
+  <canvas id="game-canvas" width="1024" height="768"></canvas>
+
+  <!-- UI 根层（菜单/弹框/HUD 附加件由 JS 动态构建） -->
+  <div id="ui-root"></div>
+
+  <!-- ==================== 开屏（站点网址 → 加载进度） ==================== -->
+  <div id="splash">
+    <div class="splash-mist"></div>
+
+    <!-- 第 1 帧：站点品牌 -->
+    <div class="splash-phase" id="splash-site">
+      <div class="site-logo">pipygames<span>.com</span></div>
+      <p class="site-tip" data-i18n="splashSiteTip">Best free games, every week</p>
+    </div>
+
+    <!-- 第 2 帧：加载进度 -->
+    <div class="splash-phase" id="splash-loading">
+      <canvas id="splash-logo" width="460" height="240"></canvas>
+      <div class="load-bar-wrap">
+        <div class="load-bar"><div class="load-fill" id="load-fill"></div></div>
+        <p class="load-text"><span data-i18n="splashLoading">LOADING</span> <b id="load-pct">0%</b></p>
+      </div>
+      <button class="btn btn-primary splash-start" id="splash-start" data-i18n="splashTapToStart" style="visibility:hidden">TAP TO START</button>
+    </div>
+  </div>
+</div>
+
+<script type="module" src="src/main.js"></script>
+</body>
+</html>
